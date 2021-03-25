@@ -1,0 +1,66 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+
+  opacity: 0.9;
+}
+
+header img {
+  width: 100%;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+header h1 {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  text-align: center;
+  font-size: 80px;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  font-weight: normal;
+}
+
+div.recipe-container p {
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center justify;
+  color: black;
+  font-size: 23px;
+  margin-top: 8%;
+}
+
+div.recipe-container img {
+  width: 30%;
+  display: center;
+
+  padding-left: 20%;
+}
+
+div.box1 {
+  padding-left: 20%;
+  margin-top: 8%;
+}
+
+div.box1 img {
+  width: 37%;
+}
+
+div.box2 {
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-top: 8%;
+}
+
+ul.ingredients {
+  list-style-type: circle;
+}
+
+ul.directions {
+  list-style-type: circle;
+}
+hr {
+  width: 60%;
+}
